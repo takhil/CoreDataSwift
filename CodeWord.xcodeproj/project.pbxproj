@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F86CBF9E1D84A7F3005987ED /* InsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CBF9D1D84A7F3005987ED /* InsertViewController.swift */; };
+		F86CBFAC1D84C38D005987ED /* CodeWordUserInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CBFAA1D84C38D005987ED /* CodeWordUserInfo+CoreDataProperties.swift */; };
+		F86CBFAD1D84C38D005987ED /* CodeWordUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CBFAB1D84C38D005987ED /* CodeWordUserInfo.swift */; };
+		F86CBFAF1D8509DA005987ED /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = F86CBFAE1D8509DA005987ED /* Login.json */; };
+		F86CBFB11D87074D005987ED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CBFB01D87074D005987ED /* DetailViewController.swift */; };
+		F89DA88D1D7CF9BD00D88D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89DA88C1D7CF9BD00D88D21 /* AppDelegate.swift */; };
+		F89DA88F1D7CF9BD00D88D21 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89DA88E1D7CF9BD00D88D21 /* LoginViewController.swift */; };
+		F89DA8921D7CF9BD00D88D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89DA8901D7CF9BD00D88D21 /* Main.storyboard */; };
+		F89DA8951D7CF9BD00D88D21 /* CodeWord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F89DA8931D7CF9BD00D88D21 /* CodeWord.xcdatamodeld */; };
+		F89DA8971D7CF9BD00D88D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89DA8961D7CF9BD00D88D21 /* Assets.xcassets */; };
+		F89DA89A1D7CF9BD00D88D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89DA8981D7CF9BD00D88D21 /* LaunchScreen.storyboard */; };
+		F89DA8A51D7CF9BD00D88D21 /* CodeWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89DA8A41D7CF9BD00D88D21 /* CodeWordTests.swift */; };
+		F89DA8B01D7CF9BD00D88D21 /* CodeWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89DA8AF1D7CF9BD00D88D21 /* CodeWordUITests.swift */; };
+		F89DA8BE1D7D166900D88D21 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89DA8BD1D7D166900D88D21 /* ListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F89DA8A11D7CF9BD00D88D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89DA8811D7CF9BC00D88D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89DA8881D7CF9BC00D88D21;
+			remoteInfo = CodeWord;
+		};
+		F89DA8AC1D7CF9BD00D88D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89DA8811D7CF9BC00D88D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89DA8881D7CF9BC00D88D21;
+			remoteInfo = CodeWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F86CBF9D1D84A7F3005987ED /* InsertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertViewController.swift; sourceTree = "<group>"; };
+		F86CBF9F1D84AD30005987ED /* CodeWord-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeWord-Bridging-Header.h"; sourceTree = "<group>"; };
+		F86CBFAA1D84C38D005987ED /* CodeWordUserInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CodeWordUserInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F86CBFAB1D84C38D005987ED /* CodeWordUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWordUserInfo.swift; sourceTree = "<group>"; };
+		F86CBFAE1D8509DA005987ED /* Login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
+		F86CBFB01D87074D005987ED /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F89DA8891D7CF9BC00D88D21 /* CodeWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89DA88C1D7CF9BD00D88D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F89DA88E1D7CF9BD00D88D21 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F89DA8911D7CF9BD00D88D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F89DA8941D7CF9BD00D88D21 /* CodeWord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeWord.xcdatamodel; sourceTree = "<group>"; };
+		F89DA8961D7CF9BD00D88D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89DA8991D7CF9BD00D88D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F89DA89B1D7CF9BD00D88D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89DA8A01D7CF9BD00D88D21 /* CodeWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89DA8A41D7CF9BD00D88D21 /* CodeWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWordTests.swift; sourceTree = "<group>"; };
+		F89DA8A61D7CF9BD00D88D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89DA8AB1D7CF9BD00D88D21 /* CodeWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89DA8AF1D7CF9BD00D88D21 /* CodeWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWordUITests.swift; sourceTree = "<group>"; };
+		F89DA8B11D7CF9BD00D88D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89DA8BD1D7D166900D88D21 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F89DA8861D7CF9BC00D88D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89DA89D1D7CF9BD00D88D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89DA8A81D7CF9BD00D88D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F89DA8801D7CF9BC00D88D21 = {
+			isa = PBXGroup;
+			children = (
+				F86CBFAA1D84C38D005987ED /* CodeWordUserInfo+CoreDataProperties.swift */,
+				F86CBFAB1D84C38D005987ED /* CodeWordUserInfo.swift */,
+				F89DA88B1D7CF9BD00D88D21 /* CodeWord */,
+				F89DA8A31D7CF9BD00D88D21 /* CodeWordTests */,
+				F89DA8AE1D7CF9BD00D88D21 /* CodeWordUITests */,
+				F89DA88A1D7CF9BC00D88D21 /* Products */,
+				F86CBF9F1D84AD30005987ED /* CodeWord-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		F89DA88A1D7CF9BC00D88D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89DA8891D7CF9BC00D88D21 /* CodeWord.app */,
+				F89DA8A01D7CF9BD00D88D21 /* CodeWordTests.xctest */,
+				F89DA8AB1D7CF9BD00D88D21 /* CodeWordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89DA88B1D7CF9BD00D88D21 /* CodeWord */ = {
+			isa = PBXGroup;
+			children = (
+				F89DA8C11D7E61A000D88D21 /* Controller */,
+				F89DA8C01D7E619000D88D21 /* View */,
+				F89DA8BF1D7E618600D88D21 /* Model */,
+				F89DA88C1D7CF9BD00D88D21 /* AppDelegate.swift */,
+				F89DA8901D7CF9BD00D88D21 /* Main.storyboard */,
+				F89DA8961D7CF9BD00D88D21 /* Assets.xcassets */,
+				F89DA8981D7CF9BD00D88D21 /* LaunchScreen.storyboard */,
+				F89DA89B1D7CF9BD00D88D21 /* Info.plist */,
+				F89DA8931D7CF9BD00D88D21 /* CodeWord.xcdatamodeld */,
+				F86CBFAE1D8509DA005987ED /* Login.json */,
+			);
+			path = CodeWord;
+			sourceTree = "<group>";
+		};
+		F89DA8A31D7CF9BD00D88D21 /* CodeWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				F89DA8A41D7CF9BD00D88D21 /* CodeWordTests.swift */,
+				F89DA8A61D7CF9BD00D88D21 /* Info.plist */,
+			);
+			path = CodeWordTests;
+			sourceTree = "<group>";
+		};
+		F89DA8AE1D7CF9BD00D88D21 /* CodeWordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F89DA8AF1D7CF9BD00D88D21 /* CodeWordUITests.swift */,
+				F89DA8B11D7CF9BD00D88D21 /* Info.plist */,
+			);
+			path = CodeWordUITests;
+			sourceTree = "<group>";
+		};
+		F89DA8BF1D7E618600D88D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F89DA8C01D7E619000D88D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F89DA88E1D7CF9BD00D88D21 /* LoginViewController.swift */,
+				F86CBFB01D87074D005987ED /* DetailViewController.swift */,
+				F86CBF9D1D84A7F3005987ED /* InsertViewController.swift */,
+				F89DA8BD1D7D166900D88D21 /* ListViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F89DA8C11D7E61A000D88D21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F89DA8881D7CF9BC00D88D21 /* CodeWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89DA8B41D7CF9BD00D88D21 /* Build configuration list for PBXNativeTarget "CodeWord" */;
+			buildPhases = (
+				F89DA8851D7CF9BC00D88D21 /* Sources */,
+				F89DA8861D7CF9BC00D88D21 /* Frameworks */,
+				F89DA8871D7CF9BC00D88D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeWord;
+			productName = CodeWord;
+			productReference = F89DA8891D7CF9BC00D88D21 /* CodeWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F89DA89F1D7CF9BD00D88D21 /* CodeWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89DA8B71D7CF9BD00D88D21 /* Build configuration list for PBXNativeTarget "CodeWordTests" */;
+			buildPhases = (
+				F89DA89C1D7CF9BD00D88D21 /* Sources */,
+				F89DA89D1D7CF9BD00D88D21 /* Frameworks */,
+				F89DA89E1D7CF9BD00D88D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89DA8A21D7CF9BD00D88D21 /* PBXTargetDependency */,
+			);
+			name = CodeWordTests;
+			productName = CodeWordTests;
+			productReference = F89DA8A01D7CF9BD00D88D21 /* CodeWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F89DA8AA1D7CF9BD00D88D21 /* CodeWordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89DA8BA1D7CF9BD00D88D21 /* Build configuration list for PBXNativeTarget "CodeWordUITests" */;
+			buildPhases = (
+				F89DA8A71D7CF9BD00D88D21 /* Sources */,
+				F89DA8A81D7CF9BD00D88D21 /* Frameworks */,
+				F89DA8A91D7CF9BD00D88D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89DA8AD1D7CF9BD00D88D21 /* PBXTargetDependency */,
+			);
+			name = CodeWordUITests;
+			productName = CodeWordUITests;
+			productReference = F89DA8AB1D7CF9BD00D88D21 /* CodeWordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F89DA8811D7CF9BC00D88D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Akhil Tirumalasetty";
+				TargetAttributes = {
+					F89DA8881D7CF9BC00D88D21 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5FQ77XLNCG;
+						LastSwiftMigration = 0800;
+					};
+					F89DA89F1D7CF9BD00D88D21 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5FQ77XLNCG;
+						LastSwiftMigration = 0800;
+						TestTargetID = F89DA8881D7CF9BC00D88D21;
+					};
+					F89DA8AA1D7CF9BD00D88D21 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5FQ77XLNCG;
+						LastSwiftMigration = 0800;
+						TestTargetID = F89DA8881D7CF9BC00D88D21;
+					};
+				};
+			};
+			buildConfigurationList = F89DA8841D7CF9BC00D88D21 /* Build configuration list for PBXProject "CodeWord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F89DA8801D7CF9BC00D88D21;
+			productRefGroup = F89DA88A1D7CF9BC00D88D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F89DA8881D7CF9BC00D88D21 /* CodeWord */,
+				F89DA89F1D7CF9BD00D88D21 /* CodeWordTests */,
+				F89DA8AA1D7CF9BD00D88D21 /* CodeWordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89DA8871D7CF9BC00D88D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86CBFAF1D8509DA005987ED /* Login.json in Resources */,
+				F89DA89A1D7CF9BD00D88D21 /* LaunchScreen.storyboard in Resources */,
+				F89DA8971D7CF9BD00D88D21 /* Assets.xcassets in Resources */,
+				F89DA8921D7CF9BD00D88D21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89DA89E1D7CF9BD00D88D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89DA8A91D7CF9BD00D88D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F89DA8851D7CF9BC00D88D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89DA88F1D7CF9BD00D88D21 /* LoginViewController.swift in Sources */,
+				F86CBFAD1D84C38D005987ED /* CodeWordUserInfo.swift in Sources */,
+				F89DA88D1D7CF9BD00D88D21 /* AppDelegate.swift in Sources */,
+				F89DA8BE1D7D166900D88D21 /* ListViewController.swift in Sources */,
+				F86CBFAC1D84C38D005987ED /* CodeWordUserInfo+CoreDataProperties.swift in Sources */,
+				F86CBF9E1D84A7F3005987ED /* InsertViewController.swift in Sources */,
+				F89DA8951D7CF9BD00D88D21 /* CodeWord.xcdatamodeld in Sources */,
+				F86CBFB11D87074D005987ED /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89DA89C1D7CF9BD00D88D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89DA8A51D7CF9BD00D88D21 /* CodeWordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89DA8A71D7CF9BD00D88D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89DA8B01D7CF9BD00D88D21 /* CodeWordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F89DA8A21D7CF9BD00D88D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89DA8881D7CF9BC00D88D21 /* CodeWord */;
+			targetProxy = F89DA8A11D7CF9BD00D88D21 /* PBXContainerItemProxy */;
+		};
+		F89DA8AD1D7CF9BD00D88D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89DA8881D7CF9BC00D88D21 /* CodeWord */;
+			targetProxy = F89DA8AC1D7CF9BD00D88D21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F89DA8901D7CF9BD00D88D21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89DA8911D7CF9BD00D88D21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F89DA8981D7CF9BD00D88D21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89DA8991D7CF9BD00D88D21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F89DA8B21D7CF9BD00D88D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F89DA8B31D7CF9BD00D88D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F89DA8B51D7CF9BD00D88D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CodeWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.CodeWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CodeWord-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		F89DA8B61D7CF9BD00D88D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CodeWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.CodeWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CodeWord-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		F89DA8B81D7CF9BD00D88D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CodeWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.CodeWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeWord.app/CodeWord";
+			};
+			name = Debug;
+		};
+		F89DA8B91D7CF9BD00D88D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CodeWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.CodeWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeWord.app/CodeWord";
+			};
+			name = Release;
+		};
+		F89DA8BB1D7CF9BD00D88D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CodeWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.CodeWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = CodeWord;
+			};
+			name = Debug;
+		};
+		F89DA8BC1D7CF9BD00D88D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CodeWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.CodeWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = CodeWord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F89DA8841D7CF9BC00D88D21 /* Build configuration list for PBXProject "CodeWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89DA8B21D7CF9BD00D88D21 /* Debug */,
+				F89DA8B31D7CF9BD00D88D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89DA8B41D7CF9BD00D88D21 /* Build configuration list for PBXNativeTarget "CodeWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89DA8B51D7CF9BD00D88D21 /* Debug */,
+				F89DA8B61D7CF9BD00D88D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89DA8B71D7CF9BD00D88D21 /* Build configuration list for PBXNativeTarget "CodeWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89DA8B81D7CF9BD00D88D21 /* Debug */,
+				F89DA8B91D7CF9BD00D88D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89DA8BA1D7CF9BD00D88D21 /* Build configuration list for PBXNativeTarget "CodeWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89DA8BB1D7CF9BD00D88D21 /* Debug */,
+				F89DA8BC1D7CF9BD00D88D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F89DA8931D7CF9BD00D88D21 /* CodeWord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F89DA8941D7CF9BD00D88D21 /* CodeWord.xcdatamodel */,
+			);
+			currentVersion = F89DA8941D7CF9BD00D88D21 /* CodeWord.xcdatamodel */;
+			path = CodeWord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F89DA8811D7CF9BC00D88D21 /* Project object */;
+}

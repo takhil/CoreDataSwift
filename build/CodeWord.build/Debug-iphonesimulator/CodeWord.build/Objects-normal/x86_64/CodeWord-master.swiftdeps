@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.3 (swiftlang-800.10.12 clang-800.0.38)"
+options: "7a16384b1c423b41a2a23c6e2bdca511"
+build_time: [531704071, 127620000]
+inputs:
+  "/Users/akhiltirumalasetty/Documents/CoreDataSwift/CodeWord/LoginViewController.swift": [526966592, 0]
+  "/Users/akhiltirumalasetty/Documents/CoreDataSwift/CodeWordUserInfo.swift": [526862476, 0]
+  "/Users/akhiltirumalasetty/Documents/CoreDataSwift/CodeWord/AppDelegate.swift": [527012734, 0]
+  "/Users/akhiltirumalasetty/Documents/CoreDataSwift/CodeWord/ListViewController.swift": [527112156, 0]
+  "/Users/akhiltirumalasetty/Documents/CoreDataSwift/CodeWordUserInfo+CoreDataProperties.swift": [526862476, 0]
+  "/Users/akhiltirumalasetty/Documents/CoreDataSwift/CodeWord/InsertViewController.swift": [527013031, 0]
+  "/Users/akhiltirumalasetty/Documents/CoreDataSwift/CodeWord/DetailViewController.swift": [527041972, 0]

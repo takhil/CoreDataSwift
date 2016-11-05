@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C8CodeWord16CodeWordUserInfo", ""]
+- ["C8CodeWord16CodeWordUserInfo", "title"]
+- ["C8CodeWord16CodeWordUserInfo", "hint"]
+- ["C8CodeWord16CodeWordUserInfo", "uname"]
+- ["C8CodeWord16CodeWordUserInfo", "email"]
+- ["C8CodeWord16CodeWordUserInfo", "password"]
+provides-dynamic-lookup:
+- "email"
+- "password"
+- "uname"
+- "title"
+- "hint"
+depends-top-level:
+- "String"
+- "CodeWordUserInfo"
+depends-member:
+- ["Ps9AnyObject", "email"]
+- ["Ps9AnyObject", "hint"]
+- ["Ps9AnyObject", "password"]
+- ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "uname"]
+- ["Ps11CVarArgType", "email"]
+- ["Ps11CVarArgType", "hint"]
+- ["Ps11CVarArgType", "password"]
+- ["Ps11CVarArgType", "title"]
+- ["Ps11CVarArgType", "uname"]
+- ["C8CodeWord16CodeWordUserInfo", "String"]
+- ["C8CodeWord16CodeWordUserInfo", "email"]
+- ["C8CodeWord16CodeWordUserInfo", "hint"]
+- ["C8CodeWord16CodeWordUserInfo", "password"]
+- ["C8CodeWord16CodeWordUserInfo", "title"]
+- ["C8CodeWord16CodeWordUserInfo", "uname"]
+- ["Ps28CustomDebugStringConvertible", "email"]
+- ["Ps28CustomDebugStringConvertible", "hint"]
+- ["Ps28CustomDebugStringConvertible", "password"]
+- ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "uname"]
+- ["Ps23CustomStringConvertible", "email"]
+- ["Ps23CustomStringConvertible", "hint"]
+- ["Ps23CustomStringConvertible", "password"]
+- ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "uname"]
+- ["Ps9Equatable", "email"]
+- ["Ps9Equatable", "hint"]
+- ["Ps9Equatable", "password"]
+- ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "uname"]
+- ["Ps8Hashable", "email"]
+- ["Ps8Hashable", "hint"]
+- ["Ps8Hashable", "password"]
+- ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "uname"]
+- ["PSo20NSFetchRequestResult", "email"]
+- ["PSo20NSFetchRequestResult", "hint"]
+- ["PSo20NSFetchRequestResult", "password"]
+- ["PSo20NSFetchRequestResult", "title"]
+- ["PSo20NSFetchRequestResult", "uname"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "email"]
+- ["CSo15NSManagedObject", "hint"]
+- ["CSo15NSManagedObject", "password"]
+- ["CSo15NSManagedObject", "title"]
+- ["CSo15NSManagedObject", "uname"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "hint"]
+- ["CSo8NSObject", "password"]
+- ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "uname"]
+- ["PSo16NSObjectProtocol", "email"]
+- ["PSo16NSObjectProtocol", "hint"]
+- ["PSo16NSObjectProtocol", "password"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "uname"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "C8CodeWord16CodeWordUserInfo"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo20NSFetchRequestResult"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/akhiltirumalasetty/Documents/CoreDataSwift/CodeWord-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "8ebc6737d2d946d68dcac290d865b5d8"
